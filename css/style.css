@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    background-color: #24353f;
+}
+
+.head {
+    z-index: 1111;
+    background-color: #24353f;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px !important;
+}
+
+
+section .height-custom {
+    height: 100vh;
+}
+
+.loginCard {
+    background-color: #24353f;
+    width: 700px;
+    min-width: 400px;
+    /* height: 70vh; */
+
+}
+
+.form-control {
+    background-color: #fff0;
+    border: var(--bs-border-width) solid #106ac3;
+    color: #d7d7d7;
+}
+
+.form-control:focus {
+    color: #d7d7d7;
+    background-color: #fff0;
+    border-color: #1369e5;
+
+}
+
+::placeholder {
+
+    color: rgba(245, 255, 250, 0.466) !important;
+
+}

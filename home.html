@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+
+<!-- start code .  -->
+
+<header class="head  p-4">
+    <div class="container  shadow-lg">
+        <div class="d-flex justify-content-between align-items-center ">
+            <div class="h3 text-white">logo</div>
+            <button class="btn btn-danger"><a class="text-decoration-none text-white"
+                    href="index.html">logOut</a></button>
+        </div>
+    </div>
+</header>
+
+<section class="">
+    <div class="container height-custom d-flex justify-content-center align-items-center">
+
+        <div class="loginCard  shadow-lg d-flex justify-content-center align-items-center flex-column gap-3 p-5 rounded-2"
+            id="welcom">
+
+        </div>
+
+    </div>
+</section>
+
+<!-- end code .  -->
+
+<script>
+    let welcom = document.getElementById("welcom")
+    welcom.innerHTML = ` <h1 class="text-light" >welcom ${localStorage.getItem("name")} </h1> `
+</script>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
